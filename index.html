@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header id="header">
+        <div class="up">
+            <div class="container">
+                <div class="up_header">
+                    <div class="logo_header">
+                        <a class="logo">DEVE</a>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu_item"><a href="#header" class="hov">ГЛАВНАЯ</a></li>
+                        <li class="menu_item"><a href="#projects" class="hov">ПРОЕКТЫ</a></li>
+                        <li class="menu_item"><a href="#ser" class="hov">УСЛУГИ</a></li>
+                        <li class="menu_item"><a href="#contacts" class="hov">КОНТАКТЫ</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    <div class="container">   
+        <div class="main_header">
+            <img class="pc" src="../img/pc.svg" alt="PC">
+            <div class="header_text">
+                <h1>Develop Everything</h1>
+                <p>Наша компания является частью IT-сообщества и занимается разработкой и доработкой различных продуктов. Создание сайтов, ботов для телеграма и различных приложений для компьютера и телефона - специализация нашей компании. Несколько готовых и других совершенных новых проектов, находящихся в стадии разработки, составляют портфолио нашей компании.</p>
+                <i class="fa-solid fa-square-xmark"></i>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="header_but"><a href="#ser">Услуги</a></button>
+            <button class="header_but"><a href="#projects" >Проекты</a></button>
+        </div>
+    </div>
+</header>
+<section class="team">
+    <h2>Наша команда</h2>
+    <div class="container">
+        <div class="slider-nav">
+                <div ><img src="../img/foto.png" class="foto1" id="nester"><p class="slider_name1" >Нестеров Денис, программист. Занимается разработкой сайтов, приложений и других продуктов в области IT. </p></div>
+                <div><img src="../img/foto.png" class="foto1"><p class="slider_name1">Трутнев Григорий</p></div>
+                <div><img src="../img/foto.png" class="foto1"><p class="slider_name1">Мартыненко Роман</p></div>
+                <div><img src="../img/foto.png" class="foto1"><p class="slider_name1">Корчёмкин Матвей</p></div>
+        </div>
+        <div class="slider">
+            <div class="inner">
+                <div ><img src="../img/foto.png" class="foto" id="nester"><p class="slider_name" ></p></div>
+                <div><img src="../img/foto.png" class="foto"><p class="slider_name"></p></div>
+                <div><img src="../img/foto.png" class="foto"><p class="slider_name"></p></div>
+                <div><img src="../img/foto.png" class="foto"><p class="slider_name"></p></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section >
+    <h2 id="projects">Проекты</h2>
+    <div class="container">
+        <div class="fsave">
+            <div class="fsave_tabel">
+                <img src="/img/fsave.png" alt="" class="fsave_foto">
+                <h3>FSave</h3>
+                <ul class="fsave_about">
+                    <li>Автосохранение</li>
+                    <li>Работа с файлами</li>
+                    <li>Быстрый доступ</li>
+                </ul>
+                <button class="fsave_but"><a class="go" href="Fsave.html">Перейти</a></button>
+            </div>
+            <div class="fsave_text">
+                <p>ForSave - программа для работы с файлами. Функция автосохранения поддерживает Photoshop, Word, Excel, Vegas и FL Studio, а функция переноса работает с файлами этих программ. Удобный и быстрый доступ к папкам, красивый дизайн и стабильность функций делают эту программу очень удобной. Аналогов в данный момент не существует. Подробно можно прочитать на сайте программы, нажав на кнопку ниже.</p>
+                <button class="fsave_but2"><a class="go2" href="Fsave.html">Перейти</a></button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="ser">
+    <div class="container">
+        <h2>Услуги</h2>
+        <div class="all_servises">
+            <div class="servis">
+                <h4>Создание сайтов</h4>
+                <p class="about_servis">Разработка сайтов на языках программирования HTML, CSS, JavaScript и PHP. Мы создаём интернет-магазины, сайты-визитки, информационные сайты и другие.</p>
+                <p class="about_servis_more">Интернет-магазин - 3000р. <br> Сайт-визитка - 1500р. <br> Информативный сайт - 1000р. <br> В стоимость входит полная разработка сайта: от дизайна до публикации в интернет.</p>
+                <button href="" class="more" onclick = "readMore()">Подробнее</button>
+                <button class="servis_go" id="webGo">Заказать</button>
+            </div>
+            <div class="servis">
+                <h4>Создание телеграм-ботов</h4>
+                <p class="about_servis">Создание ботов для телеграма под различные цели: сбор данных, помощь в бизнесе, администрирование чатов и тп. Разработка ведётся на языке программирования Python. <br> Цена - 500р.</p>
+                <button class="servis_go" id="sv">Заказать</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacts">
+    <div class="container">
+        <form action="mail.php" class="order-modal_form" method="POST">
+            <h2>Отзыв</h2>
+            <p class="form_about">
+                Если можете поделиться впечатлениями, рассказать о проблемах в работе или хотите получить ответы на вопросы - оставьте отзыв, и наши сотрудники обязательно свяжутся с вами в случае необходимости.
+            </p>
+            <input type="hidden" name="admin_email[]" value="ol27281480@gmail.com">
+            <label class="order-lable">
+                <div class="val">
+                    <input type="text" name="user-name" placeholder="Ваше имя" class="val_in" required>
+                    <input type="text" name="E-mail" placeholder="Ваша почта" class="val_in" required>
+                </div>
+                <!-- <input type="text" name="comm" class="message" placeholder="Сообщение" cols = '4' rows = '4'> -->
+                <textarea name="comm" class="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            </label>
+            <button class="order-modal_btn"  type="submit" data-modal='consultation'>
+                Отправить
+            </button>
+        </form>
+    </div>
+</section>
+<section class="contacts">
+    <a><img class="vk" src="/img/vk-social-network-logo.svg" alt=""></a>
+</section>
+<div class="modalForm">
+    <form action="mail.php" class="order-modal_form_p" method="POST">
+        <h2 id="head_servis" type="text" name="title"><input type="text"></h2>
+        <input type="hidden" name="titles">
+        <img src="/img/005close1_99908 1.svg" alt="" class="close">
+        <p class="form_about">
+            Оставьте заявку и наши сотрудники свяжутся с вами для дальнейшего сотрудничества. Спасибо!
+        </p>
+        <input type="hidden" name="admin_email[]" value="ol27281480@gmail.com">
+        <label class="order-lable">
+            <div class="val">
+                <input type="text" name="user-name" placeholder="Ваше имя" class="val_in" required>
+                <input type="text" name="E-mail" placeholder="Ваша почта" class="val_in" required>
+            </div>
+            <!-- <input type="text" name="comm" class="message" placeholder="Сообщение" cols = '4' rows = '4'> -->
+            <textarea name="comm" class="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+        </label>
+        <button class="order-modal_btn"  type="submit" data-modal='consultation'>
+            Отправить
+        </button>
+    </form>
+</div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/fs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<header id="header">
+    <div class="up">
+        <div class="container">
+            <div class="up_header">
+                <div class="logo_header">
+                    <a class="logo">DEVE</a>
+                </div>
+                <ul class="menu">
+                    <li class="menu_item"><a href="index.html" class="hov">ГЛАВНАЯ</a></li>
+                    <li class="menu_item"><a href="#about_product" class="hov">О ПРОДУКТЕ</a></li>
+                    <li class="menu_item"><a href="#download" class="hov">СКАЧАТЬ</a></li>
+                    <li class="menu_item"><a href="#contacts" class="hov">КОНТАКТЫ</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+<div class="container">   
+    <div class="main_header">
+        <img class="fs" src="/img/fsave.png" alt="PC">
+        <div class="header_text">
+            <h1 class="fs_h">FSave</h1>
+            <p>ForSave - программа для работы с файлами. Функция автосохранения поддерживает Photoshop, Word, Excel, Vegas и FL Studio, а функция переноса работает с файлами этих программ. Удобный и быстрый доступ к папкам, красивый дизайн и стабильность функций делают эту программу очень удобной. Настолько удобных аналогов в данный момент не существует.</p>
+            <i class="fa-solid fa-square-xmark"></i>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="header_but" id="dow"><a href="#download">Скачать</a></button>
+    </div>
+</div>
+</header>
+<section class="fs_about">
+    <div class="container">
+        <h2 id="about_product">О продукте</h2 >
+        <h3>1. Автосохранение файлов при работе с редакторами</h3>
+        <p class="texter">
+            Это основная функция нашего приложения, позволяющая не отвлекаться на ручное сохранение в редакторах и обеспечивающая сохранность файлов, над которыми идет работа. Оптимизация нашего приложения позволит пользоваться этой функцией с минимальной нагрузкой на компьютер, поэтому на стабильность работы редакторов наше приложение никак не повлияет. </p>
+            <img class="screen" src="/img/Снимок экрана 2022-01-21 в 10.12.33.png" alt="program">
+        <h3>2. Быстрая и удобная сортировка файлов определенных редакторов на компьютере.</h3>
+        <h4>Подробная работа функции:</h4>
+        <p class="texter">1) Запуск пользователем нашего приложения.<br>
+            2) После нажатия пользователем кнопки “Перенос” пользователь выбирает область поиска, что позволит переместить только нужные пользователю файлы, или наоборот - все подобные файлы на компьютере.<br>
+            3) Поиск компьютером нужных файлов в выбранной директории.<br>
+    4) Перенос файлов с определенными расширениями в соответствующие папки (так, все файлы, созданные в Photoshop будут перемещены в соответствующую папку, доступ к которой предоставляется прямо из приложения).
+
+            </p>
+            <img src="/img/Снимок экрана 2022-01-21 в 10.17.06.png" alt="" class="screen">
+        </div>
+</section>
+<section id="download">
+    <h2>Скачать</h2>
+    <div class="bbbb">
+        <button class="header_but"><a href="#">MAC</a></button>
+    <button class="header_but"><a href="#" >WINDOWS</a></button>
+    </div>
+    
+</section>
+<section id="contacts">
+    <div class="container">
+        <form action="mail.php" class="order-modal_form" method="POST">
+            <h2>Отзыв</h2>
+            <p class="form_about">
+                Если можете поделиться впечатлениями, рассказать о проблемах в работе или хотите получить ответы на вопросы - оставьте отзыв, и наши сотрудники обязательно свяжутся с вами в случае необходимости.
+            </p>
+            <input type="hidden" name="admin_email[]" value="ol27281480@gmail.com">
+            <label class="order-lable">
+                <div class="val">
+                    <input type="text" name="user-name" placeholder="Ваше имя" class="val_in" required>
+                    <input type="text" name="E-mail" placeholder="Ваша почта" class="val_in" required>
+                </div>
+                <!-- <input type="text" name="comm" class="message" placeholder="Сообщение" cols = '4' rows = '4'> -->
+                <textarea name="comm" class="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            </label>
+            <button class="order-modal_btn"  type="submit" data-modal='consultation'>
+                Отправить
+            </button>
+        </form>
+    </div>
+</section>
+<script src="/js/fs.js"></script>
+</body>
+</html>
